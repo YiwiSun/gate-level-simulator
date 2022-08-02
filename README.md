@@ -35,7 +35,7 @@ make
 vim Makefile  
 ```  
 # Getting Started  
-This simulator has two steps (process and simulate). Take the given design as an example.  
+This simulator has two steps (process and simulate). You can use the lib `examples/GENERIC_STD_CELL.vlib` and files in `examples/default-rando/*` from the sources as a simple example.  
 ```  
 ./process ./examples/GENERIC_STD_CELL.vlib \
           ./examples/default-rando/ExampleRocketSystem_GEN.gv \
