@@ -29,9 +29,12 @@ export PATH=$PATH:/usr/local/cuda-9.2/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.2/lib64  
 ```  
 ## Building from Source  
-To build serial simulator simply type 'make'. For the GPU based simulator it might be necessary to make some changes to the Makefile.  
+To build serial simulator simply type 'make'. Note that the include path for boost need to modify to your local path.  
 ```
-make  
+make
+```
+For the GPU based simulator it might be necessary to make some changes to the Makefile.  
+```
 vim Makefile  
 ```  
 # Getting Started  
